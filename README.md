@@ -6,7 +6,7 @@ An API based on a Cards game built using Laravel.
   - App\databases\factories\ResultFactory.php
   - App\databases\migrations\2020_05_23_022117_create_results_table.php
   - App\databases\seeds\DatabaseSeeder.php
-  
+
 **Sanitization and Validation (Using Requests and Rules) **
   - App\Http\Requests\ResultRequest.php
   - App\Http\Rules\ValidHand.php
