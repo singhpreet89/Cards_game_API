@@ -17,7 +17,7 @@ class ResultCollection extends JsonResource
         // return parent::toArray($request);
         return [
             'user_name' => $this->user_name,
-            'number_of_games_won' => $this->games_won,
+            'number_of_games_won' => (int) $this->games_won,
             'number_of_hands_won' => (int) $this->hands_won,
         ];
     }

@@ -21,15 +21,8 @@ class ResultController extends Controller
      */
     public function index()
     {
-        $result = DB::select(
-            'SELECT q1.user_name, q2.hands_won, q1.games_won from 
-                (SELECT user_name, count(*) as games_won from `results` where user_won = :userWon group by user_name) as q1
-                    LEFT JOIN 
-                (select user_name, sum(user_score) as hands_won from `results` group by user_name) as q2
-            on q1.user_name = q2.user_name',
-            ["userWon" => 1]
-        );
-
+        $result = DB::table('results')->select('user_name', DB::raw('sum(user_score) as hands_won, sum(user_won) as games_won'))->groupBy('user_name')->get();
+        
         return ResultCollection::collection($result);
         // return response([
         //     'data' => ResultCollection::collection($result)
