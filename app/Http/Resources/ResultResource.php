@@ -15,8 +15,9 @@ class ResultResource extends JsonResource
     public function toArray($request)
     {
         return [
-            'player' => $this->user_score,
-            'generated' => $this->generated_hand_score,
+            'user_name' => $this->user_name,
+            'player_hand_score' => $this->user_score,
+            'generated_hand_score' => $this->generated_hand_score,
             'result' => $this->user_won === 1 ? "Won" : "Lost"
         ];
     }
