@@ -11,9 +11,9 @@ An API based on a Cards game built using Laravel.
   - App\Http\Requests\ResultRequest.php
   - App\Http\Rules\ValidHand.php
 
-**Controller, Trait and Model**
+**Controller, Service and Model**
   - App\Http\Controllers\ResultController.php
-  - App\Http\Controllers\ControllerTraits\ResultControllerTrait.php
+  - App\Services\GamePlayService.php
   - App\Http\Models\Result.php
 
 **Exception Handling**
