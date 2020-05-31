@@ -6,12 +6,10 @@
 	<a href="#" alt="Built with: Laravel 7">
 		<img src="https://badgen.net/badge/Built%20with/Laravel%207/FF2D20" />
 	</a>
-		<a href="https://opensource.org/licenses/MIT" alt="License: MIT">
+	<a href="https://opensource.org/licenses/MIT" alt="License: MIT">
 		<img src="https://img.shields.io/badge/License-MIT-yellow.svg" />
 	</a>
 </p>
-
-**A Cards game API built using Laravel**
 
 ## Introduction
 - An Input field which allows users to enter their name **(required)**.
