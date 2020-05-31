@@ -1,10 +1,10 @@
 # Cards game API
 <p align="center">
-  <a href="#" alt="Built with: Laravel 7">
-    <img src="https://badgen.net/badge/Built%20with/Laravel%207/FF2D20" />
+  <a href="https://laravel.com/" alt="Built with: Laravel v7.11.0">
+    <img src="https://badgen.net/badge/Built%20with/Laravel%20v7.11.0/FF2D20" />
   </a>
-  <a href="#" alt="Powered by: PHP 7.4.4">
-    <img src="https://badgen.net/badge/Powered%20by/PHP%207.4.4/8892BF" />
+  <a href="https://www.php.net/downloads.php" alt="Powered by: PHP v7.4.4">
+    <img src="https://badgen.net/badge/Powered%20by/PHP%20v7.4.4/8892BF" />
   </a>
   <a href="https://opensource.org/licenses/MIT" alt="License: MIT">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" />
