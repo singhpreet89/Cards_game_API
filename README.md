@@ -1,5 +1,4 @@
 # Cards game API
-<center>
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 [![Powered by: PHP 7.4.4](https://badgen.net/badge/Powered by/PHP 7.4.4/8892BF)]
@@ -7,7 +6,6 @@
 [![Built with: Laravel 7](https://badgen.net/badge/Built with/Laravel/FF2D20)]
 
 **A Cards game API built using Laravel**
-</center>
 
 ## Introduction
 - An Input field which allows users to enter their name **(required)**.
