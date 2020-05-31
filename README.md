@@ -1,9 +1,9 @@
 # Cards game API
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[![Powered by: PHP 7.4.4](https://badgen.net/badge/Powered by/PHP 7.4.4/8892BF)]
+![Powered by: PHP 7.4.4](https://badgen.net/badge/Powered%20by/PHP%207.4.4/8892BF)
 
-[![Built with: Laravel 7](https://badgen.net/badge/Built with/Laravel/FF2D20)]
+![Built with: Laravel 7](https://badgen.net/badge/Built%20with/Laravel%207/FF2D20)
 
 **A Cards game API built using Laravel**
 
