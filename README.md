@@ -1,5 +1,13 @@
 # Cards game API
-A Cards game API built using Laravel.
+<center>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+[![Powered by: PHP 7.4.4](https://badgen.net/badge/Powered by/PHP 7.4.4/8892BF)]
+
+[![Built with: Laravel 7](https://badgen.net/badge/Built with/Laravel/FF2D20)]
+
+**A Cards game API built using Laravel**
+</center>
 
 ## Introduction
 - An Input field which allows users to enter their name **(required)**.
@@ -71,3 +79,6 @@ Import the **"Ecommerce API.postman_collection.json"** into Postman and a quick 
 **Resource (For Transformation)**
   -  App\Http\Resources\ResourceCollection.php
   -  App\Http\Resources\ResourceResource.php
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
