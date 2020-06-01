@@ -6,4 +6,5 @@ php:
 before-script:
   composer install --no-interaction
 
-  
+script:
+  - vender/bin/phpunit
